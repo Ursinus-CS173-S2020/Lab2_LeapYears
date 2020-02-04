@@ -25,10 +25,10 @@ public class Lab2_LeapYears {
         Scanner in = new Scanner(System.in);
         System.out.print("Input a year: ");
         int year = in.nextInt();
-        // TODO: Create an if statement around
-        // the output from isALeapYear, and print
-        // "It's a leap year" if it is a leap year, or
-        // "It's not a leap year" otherwise
+        if (isALeapYear(year)) {
+            System.out.println("It's a leap year");
+        }
+        // TODO: Print "It's not a leap year" otherwise
     }
     
 }
